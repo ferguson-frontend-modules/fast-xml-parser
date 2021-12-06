@@ -1,5 +1,5 @@
 {
-  "name": "fast-xml-parser",
+  "name": "@aaxis/fast-xml-parser",
   "version": "4.0.0-beta.6",
   "description": "Validate XML, Parse XML, Build XML without C/C++ based libraries",
   "main": "./src/fxp.js",
@@ -11,12 +11,11 @@
     "lint": "eslint src/*.js spec/*.js",
     "bundle": "webpack && webpack --config webpack-prod.config.js",
     "prettier": "prettier --write src/**/*.js",
-    "publish-please": "publish-please",
     "checkReadiness": "publish-please --dry-run"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NaturalIntelligence/fast-xml-parser"
+    "url": "https://github.com/ferguson-frontend-modules/fast-xml-parser"
   },
   "keywords": [
     "fast",
