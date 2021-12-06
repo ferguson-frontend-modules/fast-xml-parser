@@ -14,9 +14,6 @@
     "publish-please": "publish-please",
     "checkReadiness": "publish-please --dry-run"
   },
-  "bin": {
-    "fxparser": "./src/cli/cli.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/NaturalIntelligence/fast-xml-parser"
